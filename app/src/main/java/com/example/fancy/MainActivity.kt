@@ -37,29 +37,26 @@ class MainActivity : AppCompatActivity() {
 
             // Check if the email and password are not empty
             if (email.isNotEmpty() && password.isNotEmpty()) {
-                // sign in the user with the email and password
+
+
+                // If not an admin, proceed with regular login
                 firebaseAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this) { task ->
-                        // if login is successful display a message
                         if (task.isSuccessful) {
-                            //display the message
                             Toast.makeText(
-                                this, "Authentication OK",
+                                this, "Authentication Passed!",
                                 Toast.LENGTH_SHORT
                             ).show()
-                            /*
-                                                        // Check if the email contains "@admin"
-                                                        if (email.contains("@admin")) {
-                                                            // redirect to admin page
-                                                            val adminIntent = Intent(this, AdminMenuActivity::class.java)
-                                                            startActivity(adminIntent)
-                                                        }
-
-                             */
+                            // Check if the email contains "@admin"
+                            if (email.contains("@admin")) {
+                                // Redirect to the admin page
+                                val adminIntent = Intent(this, AdminMenuActivity::class.java)
+                                startActivity(adminIntent)
+                            }
                         } else {
-                            // if login fail display message
+                            // Login failed, display an error message to the user.
                             Toast.makeText(
-                                this, "Authentication failed, check email and password",
+                                this, "Authentication failed. Check your email and password.",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
