@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fancy</string>
+    <string name="enter_email">Enter Email...</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="button">Button</string>
+    <string name="name">Name...</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email...</string>
+    <string name="click_here_to_register">Click HERE to register</string>
+    <string name="cancel">Cancel</string>
+</resources>

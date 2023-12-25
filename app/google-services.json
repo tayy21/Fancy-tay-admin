@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "266058975619",
+    "project_id": "fancy-d61b0",
+    "storage_bucket": "fancy-d61b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266058975619:android:018a52a8d7282388a40eb6",
+        "android_client_info": {
+          "package_name": "com.example.fancy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-qgqXBmUToA22gFa4F8zvFtfhR5DA3cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
