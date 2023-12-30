@@ -1,4 +1,4 @@
-/*
+
 package com.example.fancy.data
 
 data class OrderDetails(
@@ -7,4 +7,4 @@ data class OrderDetails(
     val prodId: String = ""
 )
 
- */
+

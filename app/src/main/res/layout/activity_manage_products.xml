@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input fields for adding/editing product -->
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        app:layout_constraintStart_toStartOf="@+id/recyclerViewProducts"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddEditProduct" />
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        app:layout_constraintStart_toStartOf="@+id/btnAddEditProduct"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button to add/edit product -->
+    <Button
+        android:id="@+id/btnAddEditProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add/Edit Product"
+        app:layout_constraintStart_toStartOf="@+id/editTextProductName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextProductPrice" />
+
+    <!-- RecyclerView to display the list of products -->
+
+    <!-- Button to delete selected product -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProducts"
+        android:layout_width="349dp"
+        android:layout_height="510dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="35dp"
+        android:layout_weight="1"
+        android:background="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <Button
+        android:id="@+id/btnDeleteProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="44dp"
+        android:text="Delete Product"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

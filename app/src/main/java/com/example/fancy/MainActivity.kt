@@ -44,13 +44,13 @@ class MainActivity : AppCompatActivity() {
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
                             Toast.makeText(
-                                this, "Authentication Passed!",
+                                this, "Authentication Passed!!",
                                 Toast.LENGTH_SHORT
                             ).show()
                             // Check if the email contains "@admin"
                             if (email.contains("@admin")) {
                                 // Redirect to the admin page
-                                val adminIntent = Intent(this, AdminMenuActivity::class.java)
+                                val adminIntent = Intent(this, AdminDashboardActivity::class.java)
                                 startActivity(adminIntent)
                             }
                         } else {

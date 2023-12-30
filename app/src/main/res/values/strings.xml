@@ -10,4 +10,5 @@
     <string name="email">Email...</string>
     <string name="click_here_to_register">Click HERE to register</string>
     <string name="cancel">Cancel</string>
+    <string name="price_format">£%s</string>
 </resources>

@@ -1,12 +1,12 @@
-/*
+
 package com.example.fancy.data
 
 data class Product(
-    val prodId: String = "",
-    val prodName: String = "",
-    val prodPrice: Double = 0.0,
-    val prodImage: String = "",
-    val prodAvailable: Boolean = true
+    var prodId: String = "",
+    var prodName: String = "",
+    var prodPrice: Double = 0.0,
+    var prodImage: String = "",
+    var prodAvailable: Boolean = true
 )
 
- */
+
