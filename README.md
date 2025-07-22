@@ -1,12 +1,64 @@
 
 # Fancy Café Management App
 
-This project is a Café Management App developed in Kotlin for Android. The app is designed to streamline café operations by providing an admin dashboard for managing products and processing orders, as well as a user-friendly interface for customers to browse the menu, place orders, and receive notifications when their orders are ready.
+**Fancy Café Management App** is a feature-rich Android application built with **Kotlin** to streamline café operations. It offers an efficient admin dashboard for product and order management, along with a clean, user-friendly interface for customers to browse the menu, place orders, and receive real-time updates.
 
-Key Features:
-User Authentication: Secure login and registration using Firebase Authentication.
-Admin Dashboard: Allows admins to manage products, view orders, and update order statuses in real-time.
-Order Management: Users can place orders, view ongoing orders, and receive notifications when their orders are ready.
-Firebase Integration: Real-time data synchronization for product listings, orders, and user information.
-RecyclerView Adapters: Efficiently displays products and orders with interactive elements for smooth user interaction.
-This app provides a comprehensive solution for café management, enhancing both the administrative and customer experiences.
+---
+
+## 🚀 Key Features
+
+### 🔐 User Authentication
+Secure login and registration powered by **Firebase Authentication**.
+
+### 🧑‍💼 Admin Dashboard
+Admins can:
+- Add, update, and remove products
+- View and manage customer orders
+- Update order statuses in real-time
+
+### 🛒 Order Management
+Customers can:
+- Browse the menu
+- Place orders
+- Track order status and receive notifications when their order is ready
+
+### 🔄 Firebase Integration
+- Real-time database for syncing product listings, orders, and user information
+- Reliable and fast data access
+
+### ♻️ RecyclerView Adapters
+- Smooth and efficient display of products and orders
+- Interactive UI components for seamless user experience
+
+This app offers a full-featured solution to manage day-to-day operations of a café, improving both staff workflow and customer satisfaction.
+
+---
+
+## 📱 Screenshots
+
+### Screenshot 1
+![Screenshot 1](fta_screenshots/1.png)
+
+### Screenshot 2
+![Screenshot 2](fta_screenshots/2.png)
+
+### Screenshot 3
+![Screenshot 3](fta_screenshots/3.png)
+
+### Screenshot 4
+![Screenshot 4](fta_screenshots/4.png)
+
+### Screenshot 5
+![Screenshot 5](fta_screenshots/5.png)
+
+---
+
+## 🛠 Tech Stack
+
+- **Kotlin** (Android development)
+- **Firebase** (Authentication, Realtime Database)
+- **RecyclerView** (Dynamic UI components)
+- **Glide** (Optional: image handling if used)
+
+---
+
